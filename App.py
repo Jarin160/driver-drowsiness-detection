@@ -23,7 +23,7 @@ import pymysql
 
 #DATABASE
 
-connection = pymysql.connect(host='localhost',user='root',password='1802Jarin@160',db='Resume')
+connection = pymysql.connect(host='localhost',user='root',password='1802Jarin@160',db='resume')
 cursor = connection.cursor()
 
 def insert_data(name,email,res_score,timestamp,no_of_pages,reco_field,cand_level,skills,recommended_skills,courses):
@@ -45,4 +45,5 @@ def run():
     st.title("Resume Analazer")
     st.sidebar.markdown('#Choose User')
     activities = ['User','Admin']
+
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
