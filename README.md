@@ -14,8 +14,8 @@ The project uses the **[Yawn Eye Dataset (New)](https://www.kaggle.com/datasets/
 - Contains labeled images of faces showing different states:
   - `Open` — Eyes open  
   - `Closed` — Eyes closed  
-  - `Yawn` — Person yawning  
-  - `No_yawn` — No yawn
+  - `yawn` — Person yawning  
+  - `no_yawn` — No yawn
 
   ---
 
