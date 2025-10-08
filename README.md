@@ -4,6 +4,18 @@ This project implements a **deep learning-based driver drowsiness detection syst
 It uses **InceptionV3** for image classification and **OpenCV** for real-time deployment via webcam.  
 An **alarm system** is also integrated using `pygame.mixer` to alert the user when signs of drowsiness are detected.
 
+
+## Objective
+
+This project aims to develop a **deep learning-based driver drowsiness detection system** with the following key objectives:
+
+- **Detect eye state:** Classify whether the driver’s **eyes are open or closed** using image classification.  
+- **Detect yawning:** Identify if the driver is **yawning**, which is a common sign of fatigue.  
+- **Leverage deep learning:** Utilize the **InceptionV3** architecture for accurate feature extraction and classification.  
+- **Enable real-time monitoring:** Integrate **OpenCV** to capture and process live video streams from the **webcam**.  
+- **Alert system:** Implement an **alarm mechanism** using `pygame.mixer` that triggers when drowsiness is detected.  
+- 🚗**Enhance driver safety:** Provide a proactive system to **reduce the risk of accidents** caused by fatigue or inattention.  
+
 ---
 
 ## Dataset
