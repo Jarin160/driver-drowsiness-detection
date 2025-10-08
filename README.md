@@ -1,8 +1,7 @@
 # Driver Drowsiness Detection using Deep Learning
 
 This project implements a **deep learning-based driver drowsiness detection system** that identifies whether a person’s **eyes are open or closed** and whether they are **yawning**.  
-It uses **InceptionV3** for image classification and **OpenCV** for real-time deployment via webcam.  
-An **alarm system** is also integrated using `pygame.mixer` to alert the user when signs of drowsiness are detected.
+It uses **InceptionV3** for image classification and **OpenCV** for real-time deployment via webcam, and **alarm system** is also integrated using `pygame.mixer` to alert the user when signs of drowsiness are detected.
 
 
 ## Objective
