@@ -24,11 +24,30 @@ The project uses the **[Yawn Eye Dataset (New)](https://www.kaggle.com/datasets/
 - **Base Model:** InceptionV3 (Transfer Learning)
 - **Framework:** TensorFlow / Keras
 - **Input Shape:** (224 × 224 × 3)
-- **Output Classes:**  
-  1. Eyes Open  
-  2. Eyes Closed  
-  3. Yawn  
-  4. No Yawn
+
+---
+
+## ⚙️ Model Training Configuration
+
+| Parameter | Value |
+|------------|--------|
+| Optimizer | Adam |
+| Loss Function | Sparse Categorical Crossentropy |
+| Epochs | 40 |
+| Batch Size | 32 |
+| Evaluation Metric | Accuracy |
+
+**Training Strategy:**
+- The dataset is split into training, validation, and test sets.  
+- The model is trained for 40 epochs with real-time data augmentation.  
+- Performance is monitored using accuracy and loss curves.
+
+---
+
+## Model Evaluation
+
+Model evaluation is performed using unseen test data to assess generalization ability.
+Visualization tools such as **Matplotlib** are used to plot accuracy and loss trends over training epochs.
 
 ---
 
@@ -37,3 +56,15 @@ The project uses the **[Yawn Eye Dataset (New)](https://www.kaggle.com/datasets/
 2. Detects face ROI (Region of Interest)  
 3. Classifies eye/yawn state using the trained model  
 4. Triggers an **alarm** if eyes remain closed or yawning continues for several frames
+
+---
+
+## Dependencies
+- pandas
+- numpy
+- matplotlib
+- tensorflow
+- OpenCV
+- pygame
+  
+---
