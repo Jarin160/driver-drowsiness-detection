@@ -32,14 +32,14 @@ The project uses the **[Yawn Eye Dataset (New)](https://www.kaggle.com/datasets/
 | Parameter | Value |
 |------------|--------|
 | Optimizer | Adam |
-| Loss Function | Sparse Categorical Crossentropy |
-| Epochs | 40 |
+| Loss Function | Categorical Crossentropy |
+| Epochs | 30 |
 | Batch Size | 32 |
 | Evaluation Metric | Accuracy |
 
 **Training Strategy:**
 - The dataset is split into training, validation, and test sets.  
-- The model is trained for 40 epochs with real-time data augmentation.  
+- The model is trained for 30 epochs.  
 - Performance is monitored using accuracy and loss curves.
 
 ---
