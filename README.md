@@ -14,7 +14,7 @@ This project aims to develop a **deep learning-based driver drowsiness detection
 - **Leverage deep learning:** Utilize the **InceptionV3** architecture for accurate feature extraction and classification.  
 - **Enable real-time monitoring:** Integrate **OpenCV** to capture and process live video streams from the **webcam**.  
 - **Alert system:** Implement an **alarm mechanism** using `pygame.mixer` that triggers when drowsiness is detected.  
-- 🚗**Enhance driver safety:** Provide a proactive system to **reduce the risk of accidents** caused by fatigue or inattention.  
+- **Enhance driver safety:** Provide a proactive system to **reduce the risk of accidents** caused by fatigue or inattention.  
 
 ---
 
